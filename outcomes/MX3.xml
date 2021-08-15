@@ -1,10 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
   <statement>
-      <p>Explain why the matrix <m>{{name}}={{matrix}}</m> is or is not invertible.</p>
+      <p>
+Explain why each of the following matrices is or is not invertible by
+disussing its corresponding linear transformation.
+If the matrix is invertible, explain how to find its inverse.
+        <me>
+\hspace{2em}
+{{#matrices}}
+{{label}} = {{matrix}}
+\hspace{2em}
+{{/matrices}}
+        </me>
+      </p>
   </statement>
   <answer>
-      <p><me>\mathrm{RREF}\,{{matrix}}={{rref}}</me></p>
-      <p><m>{{name}}</m> is {{^invertible}}not {{/invertible}} invertible.</p>
+  {{#matrices}}
+      <p>
+<me>\mathrm{RREF}\,{{matrix}}={{rref}}</me>
+<m>{{label}}</m> is {{^invertible}}not {{/invertible}} invertible.
+      {{#invertible}}
+Its inverse is <m>{{inverse}}</m>.
+      {{/invertible}}
+</p>
+  {{/matrices}}
   </answer>
 </exercise>

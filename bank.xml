@@ -9,8 +9,6 @@
             <description>
                 Translate back and forth between a system of linear equations, a vector equation, and the corresponding augmented matrix.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Reduced row echelon form</title>
@@ -18,17 +16,20 @@
             <description>
                 Explain why a matrix isn’t in reduced row echelon form, and put a matrix in reduced row echelon form.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
-            <title>Solving linear systems</title>
+            <title>Counting Solutions for Linear Systems</title>
             <slug>LE3</slug>
             <description>
-                Compute the solution set for a system of linear equations or a vector equation.
+                Determine the number of solutions for a system of linear equations or a vector equation.
             </description>
-            <alignment>
-            </alignment>
+        </outcome>
+        <outcome>
+            <title>Linear Systems with Infinitely-Many Solutions</title>
+            <slug>LE4</slug>
+            <description>
+                Compute the solution set for a system of linear equations or a vector equation with infinitly many solutions.
+            </description>
         </outcome>
         <outcome>
             <title>Vector spaces</title>
@@ -36,8 +37,6 @@
             <description>
                 Explain why a given set with defined addition and scalar multiplication does satisfy a given vector space property, but nonetheless isn't a vector space.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Linear combinations</title>
@@ -45,8 +44,6 @@
             <description>
                 Determine if a Euclidean vector can be written as a linear combination of a given set of Euclidean vectors by solving an appropriate vector equation.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Spanning sets</title>
@@ -54,8 +51,6 @@
             <description>
                 Determine if a set of Euclidean vectors spans R^n by solving appropriate vector equations.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Subspaces</title>
@@ -63,8 +58,6 @@
             <description>
                  Determine if a subset of R^n is a subspace or not.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Linear independence</title>
@@ -72,8 +65,6 @@
             <description>
                 Determine if a set of Euclidean vectors is linearly dependent or independent by solving an appropriate vector equation.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Basis identification</title>
@@ -81,8 +72,6 @@
             <description>
                 Explain why a set of Euclidean vectors is or is not a basis of R^n.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Basis of a subspace</title>
@@ -90,8 +79,6 @@
             <description>
                 Compute a basis for the subspace spanned by a given set of Euclidean vectors, and determine the dimension of the subspace.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Polynomial and matrix spaces</title>
@@ -99,8 +86,6 @@
             <description>
                 Answer questions about vector spaces of polynomials or matrices.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Homogeneous systems</title>
@@ -108,8 +93,6 @@
             <description>
                 Find a basis for the solution set of a homogeneous system of equations.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Linear maps</title>
@@ -117,8 +100,6 @@
             <description>
                 Determine if a map between vector spaces of polynomials is linear or not.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Standard matrices</title>
@@ -126,8 +107,6 @@
             <description>
                 Translate back and forth between a linear transformation of Euclidean spaces and its standard matrix, and perform related computations.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Image and kernel</title>
@@ -135,8 +114,6 @@
             <description>
                 Compute a basis for the kernel and a basis for the image of a linear map, and verify that the rank-nullity theorem holds for a given linear map.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Injectivity and surjectivity</title>
@@ -144,8 +121,6 @@
             <description>
                 Determine if a given linear map is injective and/or surjective.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Multiplying matrices</title>
@@ -153,8 +128,6 @@
             <description>
                 Multiply matrices.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Row operations as matrix multiplication</title>
@@ -162,26 +135,20 @@
             <description>
                 Express row operations through matrix multiplication.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
-            <title>Invertible matrices</title>
+            <title>The inverse of a matrix</title>
             <slug>MX3</slug>
             <description>
-                Determine if a square matrix is invertible or not.
+                Determine if a matrix is invertible, and if so, compute its inverse.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
-            <title>Finding a matrix inverse</title>
+            <title>Solving systems with matrix inverses</title>
             <slug>MX4</slug>
             <description>
-                Compute the inverse matrix of an invertible matrix.
+                Invert an appropriate matrix to solve a system of linear equations.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
                <outcome>
             <title>Row operations and determinants</title>
@@ -189,8 +156,6 @@
             <description>
                 Describe how a row operation affects the determinant of a matrix.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Determinants</title>
@@ -198,8 +163,6 @@
             <description>
                 Compute the determinant of a 4x4 matrix.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Eigenvalues</title>
@@ -207,8 +170,6 @@
             <description>
                 Find the eigenvalues of a 2x2 matrix.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
         <outcome>
             <title>Eigenvectors</title>
@@ -217,8 +178,6 @@
                 Find a basis for the eigenspace of a 4x4 matrix associated
                 with a given eigenvalue.
             </description>
-            <alignment>
-            </alignment>
         </outcome>
     </outcomes>
 </bank>

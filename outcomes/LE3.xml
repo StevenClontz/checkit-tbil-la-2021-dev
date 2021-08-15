@@ -2,35 +2,50 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
   <statement>
     <p>
-Consider the following 
-        {{#system}}
-system of linear equations.n<me>{{system}}</me>
-        {{/system}}
-        {{#vectoreq}}
-vector equation. <me>{{vectoreq}}</me>
-        {{/vectoreq}}
+Consider each of the following systems of linear equations
+or vector equations.
     </p>
     <ol>
-      <li>
-        <p>
-Explain how to find a simpler
-          {{#system}}system{{/system}}
-          {{#vectoreq}}vector equation{{/vectoreq}}
-that has the same solution set.
-        </p>
-      </li>
-      <li>
-        <p>
-Explain how to find the solution set of this simpler
-          {{#system}}system.{{/system}}
-          {{#vectoreq}}vector equation.{{/vectoreq}}
-        </p>
-      </li>
+      {{#systems}}
+        <li>
+          <p>
+            <me>
+              {{system}}
+            </me>
+          </p>
+        </li>
+      {{/systems}}
     </ol>
+    <ul>
+      <li>
+        <p>
+Explain how to find a simpler system or vector equation
+that has the same solution set for each.
+        </p>
+      </li>
+      <li>
+        <p>
+Explain whether each solution set
+has no solutions, one solution, or infinitely-many solutions.
+If the set is finite, describe it using set notation.
+        </p>
+      </li>
+    </ul>
   </statement>
 
   <answer>
-      <me>\mathrm{RREF}{{matrix}}={{rref}}</me>
-      <p>The solution set is <m>{{solution}}</m>.</p>
+    <ol>
+      {{#systems}}
+        <li>
+          <p>
+            <me>\mathrm{RREF}{{matrix}}={{rref}}</me>
+            The solution set has {{count}}.
+          {{#solset}}
+            The solution set is <m>{{solset}}</m>.
+          {{/solset}}
+          </p>
+        </li>
+      {{/systems}}
+    </ol>
   </answer>
 </exercise>

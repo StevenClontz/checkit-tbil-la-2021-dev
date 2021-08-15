@@ -16,10 +16,10 @@ def generator():
         randrange(1,4)*choice([-1,1])
         for _ in range(columns)
     ]
-    lin_combo = column_matrix(sum([
+    lin_combo = sum([
         coeffs[p]*A.column(p)
         for p in A.pivots()
-    ]))
+    ])
     lin_combo_exp = linearCombination(
         [
             coeffs[A.pivots()[i]]
@@ -30,10 +30,10 @@ def generator():
             for i in range(number_of_pivots)
         ],
     )
-    matrix = A.augment(lin_combo, subdivide=True)
+    matrix = A.augment(column_matrix(lin_combo), subdivide=True)
     vectors = [
         {
-            "v": lin_combo,
+            "v": column_matrix(lin_combo),
             "lin_combo": True,
             "lin_combo_exp": lin_combo_exp,
             "A": matrix,
@@ -42,19 +42,19 @@ def generator():
     ]
 
     # non-linear combo
-    non_lin_combo = lin_combo + column_matrix(vector(ZZ, [
+    non_lin_combo = lin_combo + vector(ZZ, [
         choice([-1,1])
         for _ in range(rows)
-    ]))
+    ])
     while non_lin_combo in A.column_space():
-        non_lin_combo += column_matrix(vector(ZZ, [
+        non_lin_combo += vector(ZZ, [
             choice([-1,1])
             for _ in range(rows)
-        ])),
-    matrix = A.augment(non_lin_combo, subdivide=True)
+        ])
+    matrix = A.augment(column_matrix(non_lin_combo), subdivide=True)
     vectors += [
         {
-            "v": non_lin_combo,
+            "v": column_matrix(non_lin_combo),
             "lin_combo": False,
             "A": matrix,
             "rref": matrix.rref(),
