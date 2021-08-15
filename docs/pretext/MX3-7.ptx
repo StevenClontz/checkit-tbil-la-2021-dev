@@ -1,0 +1,62 @@
+<exercise checkit-seed="0007" checkit-slug="MX3" checkit-title="The inverse of a matrix">
+  <statement>
+      <p>
+Explain why each of the following matrices is or is not invertible by
+disussing its corresponding linear transformation.
+If the matrix is invertible, explain how to find its inverse.
+        <me>
+\hspace{2em}
+A = \left[\begin{array}{cccc}
+4 &amp; -5 &amp; 0 &amp; -5 \\
+-4 &amp; 5 &amp; 1 &amp; 7 \\
+3 &amp; -4 &amp; 1 &amp; -2 \\
+1 &amp; -1 &amp; -5 &amp; -11
+\end{array}\right]
+\hspace{2em}
+B = \left[\begin{array}{cccc}
+1 &amp; 1 &amp; -1 &amp; -1 \\
+-4 &amp; -3 &amp; 5 &amp; -1 \\
+-2 &amp; -2 &amp; 3 &amp; -2 \\
+-5 &amp; -4 &amp; 5 &amp; 5
+\end{array}\right]
+\hspace{2em}
+        </me>
+      </p>
+  </statement>
+  <answer>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+4 &amp; -5 &amp; 0 &amp; -5 \\
+-4 &amp; 5 &amp; 1 &amp; 7 \\
+3 &amp; -4 &amp; 1 &amp; -2 \\
+1 &amp; -1 &amp; -5 &amp; -11
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 1 \\
+0 &amp; 0 &amp; 1 &amp; 2 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+<m>A</m> is not  invertible.
+</p>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+1 &amp; 1 &amp; -1 &amp; -1 \\
+-4 &amp; -3 &amp; 5 &amp; -1 \\
+-2 &amp; -2 &amp; 3 &amp; -2 \\
+-5 &amp; -4 &amp; 5 &amp; 5
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]</me>
+<m>B</m> is  invertible.
+Its inverse is <m>\left[\begin{array}{cccc}
+13 &amp; -5 &amp; 6 &amp; 4 \\
+5 &amp; 0 &amp; 0 &amp; 1 \\
+14 &amp; -4 &amp; 5 &amp; 4 \\
+3 &amp; -1 &amp; 1 &amp; 1
+\end{array}\right]</m>.
+</p>
+  </answer>
+</exercise>

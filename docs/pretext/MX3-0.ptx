@@ -1,0 +1,62 @@
+<exercise checkit-seed="0000" checkit-slug="MX3" checkit-title="The inverse of a matrix">
+  <statement>
+      <p>
+Explain why each of the following matrices is or is not invertible by
+disussing its corresponding linear transformation.
+If the matrix is invertible, explain how to find its inverse.
+        <me>
+\hspace{2em}
+D = \left[\begin{array}{cccc}
+-1 &amp; 1 &amp; 0 &amp; 2 \\
+-2 &amp; 5 &amp; 5 &amp; -4 \\
+2 &amp; -3 &amp; -2 &amp; 0 \\
+4 &amp; -4 &amp; -3 &amp; 5
+\end{array}\right]
+\hspace{2em}
+N = \left[\begin{array}{cccc}
+-3 &amp; 9 &amp; 1 &amp; -11 \\
+3 &amp; -9 &amp; -2 &amp; 13 \\
+3 &amp; -9 &amp; -3 &amp; 15 \\
+-4 &amp; 12 &amp; 2 &amp; -16
+\end{array}\right]
+\hspace{2em}
+        </me>
+      </p>
+  </statement>
+  <answer>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+-1 &amp; 1 &amp; 0 &amp; 2 \\
+-2 &amp; 5 &amp; 5 &amp; -4 \\
+2 &amp; -3 &amp; -2 &amp; 0 \\
+4 &amp; -4 &amp; -3 &amp; 5
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]</me>
+<m>D</m> is  invertible.
+Its inverse is <m>\left[\begin{array}{cccc}
+21 &amp; 8 &amp; 23 &amp; -2 \\
+38 &amp; 14 &amp; 41 &amp; -4 \\
+-36 &amp; -13 &amp; -39 &amp; 4 \\
+-8 &amp; -3 &amp; -9 &amp; 1
+\end{array}\right]</m>.
+</p>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+-3 &amp; 9 &amp; 1 &amp; -11 \\
+3 &amp; -9 &amp; -2 &amp; 13 \\
+3 &amp; -9 &amp; -3 &amp; 15 \\
+-4 &amp; 12 &amp; 2 &amp; -16
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; -3 &amp; 0 &amp; 3 \\
+0 &amp; 0 &amp; 1 &amp; -2 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+<m>N</m> is not  invertible.
+</p>
+  </answer>
+</exercise>

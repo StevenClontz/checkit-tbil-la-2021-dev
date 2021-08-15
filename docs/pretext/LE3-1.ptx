@@ -1,0 +1,123 @@
+<exercise checkit-seed="0001" checkit-slug="LE3" checkit-title="Counting Solutions for Linear Systems">
+  <statement>
+    <p>
+Consider each of the following systems of linear equations
+or vector equations.
+    </p>
+    <ol>
+        <li>
+          <p>
+            <me>
+              x_{1} \left[\begin{array}{c}
+1 \\
+1 \\
+2
+\end{array}\right] + x_{2} \left[\begin{array}{c}
+1 \\
+2 \\
+4
+\end{array}\right] + x_{3} \left[\begin{array}{c}
+1 \\
+-2 \\
+-3
+\end{array}\right] = \left[\begin{array}{c}
+2 \\
+14 \\
+25
+\end{array}\right]
+            </me>
+          </p>
+        </li>
+        <li>
+          <p>
+            <me>
+              \begin{matrix}
+ x_{1} &amp;  +  &amp; 4 \, x_{2} &amp;  +  &amp; 13 \, x_{3} &amp; = &amp; -12 \\
+ -x_{1} &amp;  -  &amp; 3 \, x_{2} &amp;  -  &amp; 10 \, x_{3} &amp; = &amp; 9 \\
+ -x_{1} &amp;  &amp;  &amp;  -  &amp; x_{3} &amp; = &amp; -2 \\
+ \end{matrix}
+            </me>
+          </p>
+        </li>
+        <li>
+          <p>
+            <me>
+              \begin{matrix}
+ x_{1} &amp;  -  &amp; 5 \, x_{2} &amp;  +  &amp; 9 \, x_{3} &amp; = &amp; -12 \\
+ &amp;  &amp; x_{2} &amp;  -  &amp; 2 \, x_{3} &amp; = &amp; 2 \\
+ &amp;  -  &amp; 5 \, x_{2} &amp;  +  &amp; 10 \, x_{3} &amp; = &amp; -10 \\
+ \end{matrix}
+            </me>
+          </p>
+        </li>
+    </ol>
+    <ul>
+      <li>
+        <p>
+Explain how to find a simpler system or vector equation
+that has the same solution set for each.
+        </p>
+      </li>
+      <li>
+        <p>
+Explain whether each solution set
+has no solutions, one solution, or infinitely-many solutions.
+If the set is finite, describe it using set notation.
+        </p>
+      </li>
+    </ul>
+  </statement>
+
+  <answer>
+    <ol>
+        <li>
+          <p>
+            <me>\mathrm{RREF}\left[\begin{array}{ccc|c}
+1 &amp; 1 &amp; 1 &amp; 2 \\
+1 &amp; 2 &amp; -2 &amp; 14 \\
+2 &amp; 4 &amp; -3 &amp; 25
+\end{array}\right]=\left[\begin{array}{ccc|c}
+1 &amp; 0 &amp; 0 &amp; 2 \\
+0 &amp; 1 &amp; 0 &amp; 3 \\
+0 &amp; 0 &amp; 1 &amp; -3
+\end{array}\right]</me>
+            The solution set has one solution.
+            The solution set is <m>\left\{ \left[\begin{array}{c}
+2 \\
+3 \\
+-3
+\end{array}\right] \right\}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <me>\mathrm{RREF}\left[\begin{array}{ccc|c}
+1 &amp; 4 &amp; 13 &amp; -12 \\
+-1 &amp; -3 &amp; -10 &amp; 9 \\
+-1 &amp; 0 &amp; -1 &amp; -2
+\end{array}\right]=\left[\begin{array}{ccc|c}
+1 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 1 &amp; 3 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]</me>
+            The solution set has no solutions.
+            The solution set is <m>\emptyset</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <me>\mathrm{RREF}\left[\begin{array}{ccc|c}
+1 &amp; -5 &amp; 9 &amp; -12 \\
+0 &amp; 1 &amp; -2 &amp; 2 \\
+0 &amp; -5 &amp; 10 &amp; -10
+\end{array}\right]=\left[\begin{array}{ccc|c}
+1 &amp; 0 &amp; -1 &amp; -2 \\
+0 &amp; 1 &amp; -2 &amp; 2 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+            The solution set has infinitely-many solutions.
+          </p>
+        </li>
+    </ol>
+  </answer>
+</exercise>

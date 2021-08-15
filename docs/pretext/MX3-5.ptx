@@ -1,0 +1,62 @@
+<exercise checkit-seed="0005" checkit-slug="MX3" checkit-title="The inverse of a matrix">
+  <statement>
+      <p>
+Explain why each of the following matrices is or is not invertible by
+disussing its corresponding linear transformation.
+If the matrix is invertible, explain how to find its inverse.
+        <me>
+\hspace{2em}
+Q = \left[\begin{array}{cccc}
+-2 &amp; -6 &amp; 2 &amp; 2 \\
+-1 &amp; -3 &amp; -4 &amp; -14 \\
+2 &amp; 6 &amp; 5 &amp; 19 \\
+-1 &amp; -3 &amp; -1 &amp; -5
+\end{array}\right]
+\hspace{2em}
+M = \left[\begin{array}{cccc}
+0 &amp; 0 &amp; -4 &amp; -1 \\
+0 &amp; 1 &amp; 5 &amp; 3 \\
+-1 &amp; -2 &amp; -5 &amp; -5 \\
+1 &amp; 1 &amp; 5 &amp; 3
+\end{array}\right]
+\hspace{2em}
+        </me>
+      </p>
+  </statement>
+  <answer>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+-2 &amp; -6 &amp; 2 &amp; 2 \\
+-1 &amp; -3 &amp; -4 &amp; -14 \\
+2 &amp; 6 &amp; 5 &amp; 19 \\
+-1 &amp; -3 &amp; -1 &amp; -5
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 3 &amp; 0 &amp; 2 \\
+0 &amp; 0 &amp; 1 &amp; 3 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+<m>Q</m> is not  invertible.
+</p>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+0 &amp; 0 &amp; -4 &amp; -1 \\
+0 &amp; 1 &amp; 5 &amp; 3 \\
+-1 &amp; -2 &amp; -5 &amp; -5 \\
+1 &amp; 1 &amp; 5 &amp; 3
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]</me>
+<m>M</m> is  invertible.
+Its inverse is <m>\left[\begin{array}{cccc}
+0 &amp; -1 &amp; 0 &amp; 1 \\
+10 &amp; 8 &amp; 7 &amp; 7 \\
+1 &amp; 1 &amp; 1 &amp; 1 \\
+-5 &amp; -4 &amp; -4 &amp; -4
+\end{array}\right]</m>.
+</p>
+  </answer>
+</exercise>

@@ -1,0 +1,126 @@
+<exercise checkit-seed="0007" checkit-slug="VS3" checkit-title="Spanning sets">
+  <statement>
+        <ol>
+            <li>
+                <p>
+Write a statement involving a vector equation that's equivalent to each
+claim below.
+                </p>
+                <ul>
+                    <li>
+                        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+2 \\
+-1 \\
+-4 \\
+5
+\end{array}\right] , \left[\begin{array}{c}
+-1 \\
+1 \\
+-1 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+1 \\
+0 \\
+-4 \\
+4
+\end{array}\right] , \left[\begin{array}{c}
+3 \\
+-4 \\
+5 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+19 \\
+-16 \\
+-8 \\
+27
+\end{array}\right] \right\}</m> <em>spans</em> <m>\mathbb R^4</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+2 \\
+-1 \\
+-4 \\
+5
+\end{array}\right] , \left[\begin{array}{c}
+-1 \\
+1 \\
+-1 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+1 \\
+0 \\
+-4 \\
+4
+\end{array}\right] , \left[\begin{array}{c}
+3 \\
+-4 \\
+5 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+19 \\
+-16 \\
+-8 \\
+27
+\end{array}\right] \right\}</m> does <em>not</em> span <m>\mathbb R^4</m>.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+Explain how to determine which of these statements is true.
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+            <me>
+\mathrm{RREF}\, \left[\begin{array}{ccccc}
+2 &amp; -1 &amp; 1 &amp; 3 &amp; 19 \\
+-1 &amp; 1 &amp; 0 &amp; -4 &amp; -16 \\
+-4 &amp; -1 &amp; -4 &amp; 5 &amp; -8 \\
+5 &amp; 0 &amp; 4 &amp; 0 &amp; 27
+\end{array}\right] = \left[\begin{array}{ccccc}
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 3 \\
+0 &amp; 1 &amp; 0 &amp; 0 &amp; -1 \\
+0 &amp; 0 &amp; 1 &amp; 0 &amp; 3 \\
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 3
+\end{array}\right]
+            </me>
+        </p>
+        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+2 \\
+-1 \\
+-4 \\
+5
+\end{array}\right] , \left[\begin{array}{c}
+-1 \\
+1 \\
+-1 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+1 \\
+0 \\
+-4 \\
+4
+\end{array}\right] , \left[\begin{array}{c}
+3 \\
+-4 \\
+5 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+19 \\
+-16 \\
+-8 \\
+27
+\end{array}\right] \right\}</m>
+                does <em>not</em> span
+<m>\mathbb{R}^4</m>.
+        </p>
+    </answer>
+</exercise>

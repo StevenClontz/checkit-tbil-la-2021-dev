@@ -1,0 +1,113 @@
+<exercise checkit-seed="0002" checkit-slug="VS6" checkit-title="Basis identification">
+    <statement>
+        <ol>
+            <li>
+                <p>
+Write a statement involving spanning and independence properties
+that's equivalent to each claim below.
+                </p>
+                <ul>
+                    <li>
+                        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+-1 \\
+1 \\
+-1 \\
+1
+\end{array}\right] , \left[\begin{array}{c}
+-2 \\
+1 \\
+-1 \\
+1
+\end{array}\right] , \left[\begin{array}{c}
+0 \\
+1 \\
+0 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+-1 \\
+2 \\
+2 \\
+-1
+\end{array}\right] \right\}</m> is a <em>basis</em>
+of <m>\mathbb{R}^4</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+-1 \\
+1 \\
+-1 \\
+1
+\end{array}\right] , \left[\begin{array}{c}
+-2 \\
+1 \\
+-1 \\
+1
+\end{array}\right] , \left[\begin{array}{c}
+0 \\
+1 \\
+0 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+-1 \\
+2 \\
+2 \\
+-1
+\end{array}\right] \right\}</m> is <em>not</em> a basis
+of <m>\mathbb{R}^4</m>.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+Explain how to determine which of these statements is true.
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+            <me>
+\mathrm{RREF}\, \left[\begin{array}{cccc}
+-1 &amp; -2 &amp; 0 &amp; -1 \\
+1 &amp; 1 &amp; 1 &amp; 2 \\
+-1 &amp; -1 &amp; 0 &amp; 2 \\
+1 &amp; 1 &amp; 0 &amp; -1
+\end{array}\right] = \left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]
+            </me>
+        </p>
+        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+-1 \\
+1 \\
+-1 \\
+1
+\end{array}\right] , \left[\begin{array}{c}
+-2 \\
+1 \\
+-1 \\
+1
+\end{array}\right] , \left[\begin{array}{c}
+0 \\
+1 \\
+0 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+-1 \\
+2 \\
+2 \\
+-1
+\end{array}\right] \right\}</m> is
+a <em>basis</em>.
+
+        </p>
+    </answer>
+</exercise>

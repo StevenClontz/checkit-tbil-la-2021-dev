@@ -1,0 +1,51 @@
+<exercise checkit-seed="0006" checkit-slug="LE4" checkit-title="Linear Systems with Infinitely-Many Solutions">
+  <statement>
+    <p>
+Consider the following
+system of linear equations.
+      <me>
+        \begin{matrix}
+ &amp;  &amp; x_{2} &amp;  +  &amp; 3 \, x_{3} &amp; = &amp; 1 \\
+ -x_{1} &amp;  -  &amp; 4 \, x_{2} &amp;  -  &amp; 13 \, x_{3} &amp; = &amp; -7 \\
+ -x_{1} &amp;  -  &amp; 4 \, x_{2} &amp;  -  &amp; 13 \, x_{3} &amp; = &amp; -7 \\
+ -x_{1} &amp;  -  &amp; 4 \, x_{2} &amp;  -  &amp; 13 \, x_{3} &amp; = &amp; -7 \\
+ \end{matrix}
+        
+      </me>
+    </p>
+    <ol>
+      <li>
+        <p>
+Explain how to find a simpler system or vector equation
+that has the same solution set.
+        </p>
+      </li>
+      <li>
+        <p>
+Explain how to describe this solution set using set notation.
+        </p>
+      </li>
+    </ol>
+  </statement>
+
+  <answer>
+    <p>
+      <me>\mathrm{RREF}\left[\begin{array}{ccc|c}
+0 &amp; 1 &amp; 3 &amp; 1 \\
+-1 &amp; -4 &amp; -13 &amp; -7 \\
+-1 &amp; -4 &amp; -13 &amp; -7 \\
+-1 &amp; -4 &amp; -13 &amp; -7
+\end{array}\right]=\left[\begin{array}{ccc|c}
+1 &amp; 0 &amp; 1 &amp; 3 \\
+0 &amp; 1 &amp; 3 &amp; 1 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+      The solution set is <m> \left\{ \left[\begin{array}{c}
+-a + 3 \\
+-3 \, a + 1 \\
+a
+\end{array}\right] \,\middle|\, a \in\mathbb R \right\} </m>.
+    </p>
+  </answer>
+</exercise>

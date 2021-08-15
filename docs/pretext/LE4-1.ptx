@@ -1,0 +1,66 @@
+<exercise checkit-seed="0001" checkit-slug="LE4" checkit-title="Linear Systems with Infinitely-Many Solutions">
+  <statement>
+    <p>
+Consider the following
+vector equation.
+      <me>
+        
+        x_{1} \left[\begin{array}{c}
+-3 \\
+-3 \\
+4 \\
+-1
+\end{array}\right] + x_{2} \left[\begin{array}{c}
+-1 \\
+-5 \\
+3 \\
+-1
+\end{array}\right] + x_{3} \left[\begin{array}{c}
+-5 \\
+-13 \\
+10 \\
+-3
+\end{array}\right] = \left[\begin{array}{c}
+8 \\
+4 \\
+-9 \\
+2
+\end{array}\right]
+      </me>
+    </p>
+    <ol>
+      <li>
+        <p>
+Explain how to find a simpler system or vector equation
+that has the same solution set.
+        </p>
+      </li>
+      <li>
+        <p>
+Explain how to describe this solution set using set notation.
+        </p>
+      </li>
+    </ol>
+  </statement>
+
+  <answer>
+    <p>
+      <me>\mathrm{RREF}\left[\begin{array}{ccc|c}
+-3 &amp; -1 &amp; -5 &amp; 8 \\
+-3 &amp; -5 &amp; -13 &amp; 4 \\
+4 &amp; 3 &amp; 10 &amp; -9 \\
+-1 &amp; -1 &amp; -3 &amp; 2
+\end{array}\right]=\left[\begin{array}{ccc|c}
+1 &amp; 0 &amp; 1 &amp; -3 \\
+0 &amp; 1 &amp; 2 &amp; 1 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+      The solution set is <m> \left\{ \left[\begin{array}{c}
+-a - 3 \\
+-2 \, a + 1 \\
+a
+\end{array}\right] \,\middle|\, a \in\mathbb R \right\} </m>.
+    </p>
+  </answer>
+</exercise>

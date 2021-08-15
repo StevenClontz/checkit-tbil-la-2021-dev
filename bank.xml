@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.1">
-    <title>Linear Algebra for Team-Based Inquiry Learning</title>
+    <title>Linear Algebra for Team-Based Inquiry Learning (Fall 2021 Dev Ed)</title>
     <url>https://teambasedinquirylearning.github.io/linear-algebra/</url>
     <outcomes>
         <outcome>

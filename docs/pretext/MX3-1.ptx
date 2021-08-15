@@ -1,0 +1,62 @@
+<exercise checkit-seed="0001" checkit-slug="MX3" checkit-title="The inverse of a matrix">
+  <statement>
+      <p>
+Explain why each of the following matrices is or is not invertible by
+disussing its corresponding linear transformation.
+If the matrix is invertible, explain how to find its inverse.
+        <me>
+\hspace{2em}
+L = \left[\begin{array}{cccc}
+1 &amp; 1 &amp; -1 &amp; 6 \\
+3 &amp; 3 &amp; -2 &amp; 15 \\
+3 &amp; 3 &amp; -1 &amp; 12 \\
+-4 &amp; -4 &amp; 3 &amp; -21
+\end{array}\right]
+\hspace{2em}
+B = \left[\begin{array}{cccc}
+-1 &amp; -1 &amp; -1 &amp; -1 \\
+0 &amp; 1 &amp; -3 &amp; -1 \\
+0 &amp; 0 &amp; 1 &amp; -1 \\
+1 &amp; 0 &amp; 3 &amp; 2
+\end{array}\right]
+\hspace{2em}
+        </me>
+      </p>
+  </statement>
+  <answer>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+1 &amp; 1 &amp; -1 &amp; 6 \\
+3 &amp; 3 &amp; -2 &amp; 15 \\
+3 &amp; 3 &amp; -1 &amp; 12 \\
+-4 &amp; -4 &amp; 3 &amp; -21
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 1 &amp; 0 &amp; 3 \\
+0 &amp; 0 &amp; 1 &amp; -3 \\
+0 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{array}\right]</me>
+<m>L</m> is not  invertible.
+</p>
+      <p>
+<me>\mathrm{RREF}\,\left[\begin{array}{cccc}
+-1 &amp; -1 &amp; -1 &amp; -1 \\
+0 &amp; 1 &amp; -3 &amp; -1 \\
+0 &amp; 0 &amp; 1 &amp; -1 \\
+1 &amp; 0 &amp; 3 &amp; 2
+\end{array}\right]=\left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]</me>
+<m>B</m> is  invertible.
+Its inverse is <m>\left[\begin{array}{cccc}
+5 &amp; 5 &amp; 2 &amp; 6 \\
+-4 &amp; -3 &amp; -1 &amp; -4 \\
+-1 &amp; -1 &amp; 0 &amp; -1 \\
+-1 &amp; -1 &amp; -1 &amp; -1
+\end{array}\right]</m>.
+</p>
+  </answer>
+</exercise>

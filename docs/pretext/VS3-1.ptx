@@ -1,0 +1,111 @@
+<exercise checkit-seed="0001" checkit-slug="VS3" checkit-title="Spanning sets">
+  <statement>
+        <ol>
+            <li>
+                <p>
+Write a statement involving a vector equation that's equivalent to each
+claim below.
+                </p>
+                <ul>
+                    <li>
+                        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+1 \\
+-1 \\
+0 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+2 \\
+-1 \\
+1 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+4 \\
+0 \\
+5 \\
+-4
+\end{array}\right] , \left[\begin{array}{c}
+-4 \\
+3 \\
+0 \\
+-3
+\end{array}\right] \right\}</m> <em>spans</em> <m>\mathbb R^4</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+1 \\
+-1 \\
+0 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+2 \\
+-1 \\
+1 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+4 \\
+0 \\
+5 \\
+-4
+\end{array}\right] , \left[\begin{array}{c}
+-4 \\
+3 \\
+0 \\
+-3
+\end{array}\right] \right\}</m> does <em>not</em> span <m>\mathbb R^4</m>.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+Explain how to determine which of these statements is true.
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+            <me>
+\mathrm{RREF}\, \left[\begin{array}{cccc}
+1 &amp; 2 &amp; 4 &amp; -4 \\
+-1 &amp; -1 &amp; 0 &amp; 3 \\
+0 &amp; 1 &amp; 5 &amp; 0 \\
+0 &amp; 0 &amp; -4 &amp; -3
+\end{array}\right] = \left[\begin{array}{cccc}
+1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{array}\right]
+            </me>
+        </p>
+        <p>
+The set of vectors <m>\left\{ \left[\begin{array}{c}
+1 \\
+-1 \\
+0 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+2 \\
+-1 \\
+1 \\
+0
+\end{array}\right] , \left[\begin{array}{c}
+4 \\
+0 \\
+5 \\
+-4
+\end{array}\right] , \left[\begin{array}{c}
+-4 \\
+3 \\
+0 \\
+-3
+\end{array}\right] \right\}</m>
+                does <em>not</em> span
+<m>\mathbb{R}^4</m>.
+        </p>
+    </answer>
+</exercise>
