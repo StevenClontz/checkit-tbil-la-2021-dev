@@ -4,9 +4,9 @@
       <ol>
           <li>Let <m>M</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_3 \leftrightarrow R_4</m>.
               What is <m>\mathrm{det}\,M</m>?</li>
-          <li>Let <m>P</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_2 \to 5R_2</m>.
+          <li>Let <m>P</m> be the matrix obtained from <m>A</m> by applying the row operation <m>5 R_2 \to R_2</m>.
               What is <m>\mathrm{det}\,P</m>?</li>
-          <li>Let <m>C</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_3 \to R_3 + 3R_4</m>.
+          <li>Let <m>C</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_3 + 3 R_4 \to R_3</m>.
               What is <m>\mathrm{det}\,C</m>?</li>
       </ol>
   </statement>

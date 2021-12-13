@@ -2,9 +2,9 @@
   <statement>
       <p>Let <m>A</m> be a <m>4 \times 4</m> matrix with determinant <m>-4</m>.</p>
       <ol>
-          <li>Let <m>P</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_4 \to -5R_4</m>.
+          <li>Let <m>P</m> be the matrix obtained from <m>A</m> by applying the row operation <m>-5 R_4 \to R_4</m>.
               What is <m>\mathrm{det}\,P</m>?</li>
-          <li>Let <m>M</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_3 \to R_3 + -4R_2</m>.
+          <li>Let <m>M</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_3 - 4 R_2 \to R_3</m>.
               What is <m>\mathrm{det}\,M</m>?</li>
           <li>Let <m>N</m> be the matrix obtained from <m>A</m> by applying the row operation <m>R_3 \leftrightarrow R_4</m>.
               What is <m>\mathrm{det}\,N</m>?</li>

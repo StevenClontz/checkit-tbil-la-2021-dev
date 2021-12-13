@@ -5,7 +5,7 @@
 3 &amp; -3 &amp; 5 &amp; 0 \\
 -4 &amp; -2 &amp; 4 &amp; 2 \\
 0 &amp; 1 &amp; -5 &amp; -1
-\end{array}\right].</me>.</p>
+\end{array}\right].</me></p>
   </statement>
   <answer>
       <me>\mathrm{det}\,\left[\begin{array}{cccc}

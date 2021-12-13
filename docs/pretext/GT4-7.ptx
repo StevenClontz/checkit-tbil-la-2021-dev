@@ -5,7 +5,7 @@
 3 &amp; 6 &amp; -9 &amp; 6 \\
 -1 &amp; -1 &amp; 6 &amp; -2 \\
 -4 &amp; -4 &amp; 12 &amp; -5
-\end{array}\right]</me></p>
+\end{array}\right].</me></p>
   </statement>
   <answer>
       <p><me>\mathrm{RREF}\,\left[\begin{array}{cccc}

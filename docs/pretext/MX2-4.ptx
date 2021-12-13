@@ -3,9 +3,9 @@
       <p>Let <m>A</m> be a <m>4 \times 4</m> matrix.</p>
       <ol>
           <li>Give a <m>4 \times 4</m> matrix <m>M</m> that may be used to perform the row operation <m>R_3 \leftrightarrow R_2</m>.</li>
-          <li>Give a <m>4 \times 4</m> matrix <m>P</m> that may be used to perform the row operation <m>R_3 \to -3R_3</m>.</li>
+          <li>Give a <m>4 \times 4</m> matrix <m>P</m> that may be used to perform the row operation <m>-3 R_3 \to R_3</m>.</li>
           <li>Use matrix multiplication to describe the matrix obtained by applying
-              <m>R_3 \to -3R_3</m> and then <m>R_3 \leftrightarrow R_2</m>
+              <m>-3 R_3 \to R_3</m> and then <m>R_3 \leftrightarrow R_2</m>
               to <m>A</m> (note the order).
           </li>
       </ol>

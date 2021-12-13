@@ -35,7 +35,7 @@ Show step-by-step why <me>\operatorname{RREF}\left[\begin{array}{ccccc}
 1 &amp; 1 &amp; 0 &amp; 3 &amp; -2 \\
 0 &amp; 0 &amp; 1 &amp; 2 &amp; -1 \\
 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
-\end{array}\right]</me>.
+\end{array}\right].</me>
                 </p>
             </li>
         </ol>

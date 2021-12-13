@@ -40,7 +40,7 @@ Show step-by-step why <me>\operatorname{RREF}\left[\begin{array}{cccc}
 0 &amp; 0 &amp; 1 &amp; 0 \\
 0 &amp; 0 &amp; 0 &amp; 1 \\
 0 &amp; 0 &amp; 0 &amp; 0
-\end{array}\right]</me>.
+\end{array}\right].</me>
                 </p>
             </li>
         </ol>

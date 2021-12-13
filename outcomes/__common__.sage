@@ -3,16 +3,15 @@ latex.matrix_column_alignment("c")
 
 class rowOp(SageObject):
     def __init__(self,optype,row1, row2, scalar=1):
-        self.row1=str(row1)
-        self.row2 = str(row2)
-        self.optype=optype
-        self.scalar = str(scalar)
-        if self.optype == "elementary":
-            self.string = "R_"+self.row1 + r" \to " + "R_"+self.row1 + r" + " + self.scalar + "R_"+self.row2
-        if self.optype=="diagonal":
-            self.string = "R_"+self.row1 + r" \to " + self.scalar + "R_"+self.row1
-        if self.optype=="permutation":
-            self.string = "R_"+self.row1 + r" \leftrightarrow " + "R_"+self.row2
+        pm = "+"
+        if scalar < 0:
+            pm = "-"
+        if optype == "elementary":
+            self.string = f"R_{row1} {pm} {abs(scalar)} R_{row2} \\to R_{row1}"
+        if optype=="diagonal":
+            self.string = f"{scalar} R_{row1} \\to R_{row1}"
+        if optype=="permutation":
+            self.string = f"R_{row1} \\leftrightarrow R_{row2}"
         
     def _latex_(self):
         return self.string
