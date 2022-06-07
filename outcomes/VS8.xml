@@ -75,8 +75,8 @@ The set
     {{^result}}<em>dependent</em>.{{/result}}
 {{/task_ind}}
 {{#task_spa}} 
-    {{#result}}<em>spans</em>.{{/result}}
-    {{^result}}does <em>not</em> span.{{/result}}
+    {{#result}}<em>spans</em> {{#context_mat}}<m>\mathrm{M}_{2,2}</m>{{/context_mat}} {{#context_pol}}<m>\mathcal{P}_3</m>{{/context_pol}}.{{/result}}
+    {{^result}}does <em>not</em> span {{#context_mat}}<m>\mathrm{M}_{2,2}</m>{{/context_mat}} {{#context_pol}}<m>\mathcal{P}_3</m>{{/context_pol}}.{{/result}}
 {{/task_spa}}
         </p>
     </answer>
